@@ -1,0 +1,33 @@
+{
+  "name": "platziverse-cli",
+  "version": "1.0.0",
+  "private": true,
+  "bin": "platziverse.js",
+  "description": "A Simple IoT Platform - CLI",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "lint:fix": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jairbal/Platziverse.git"
+  },
+  "author": "Jair Balcazar @Jairbal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jairbal/Platziverse/issues"
+  },
+  "homepage": "https://github.com/Jairbal/Platziverse#readme",
+  "devDependencies": {
+    "standard": "^14.3.4"
+  },
+  "dependencies": {
+    "args": "^5.0.1",
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.8.20",
+    "minimist": "^1.2.5",
+    "moment": "^2.27.0",
+    "platziverse-agent": "file:../platziverse-agent"
+  }
+}

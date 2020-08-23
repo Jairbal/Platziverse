@@ -1,0 +1,23 @@
+{
+  "name": "platziverse-utils",
+  "version": "1.0.0",
+  "description": "Utils for Platziverse project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jairbal/Platziverse.git"
+  },
+  "author": "Jair Balcazar @Jairbal.jb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jairbal/Platziverse/issues"
+  },
+  "homepage": "https://github.com/Jairbal/Platziverse#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "debug": "^4.1.1"
+  }
+}
